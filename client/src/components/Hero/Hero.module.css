@@ -1,0 +1,98 @@
+.article {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 5vw;
+  }
+  .div {
+    height: 100%;
+    width: 100%;
+    background-color: #84708626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 0 0 5px;
+  }
+  .txtBox {
+    border-radius: 5px 0 0 5px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
+  .h2 {
+    font-size: 5em;
+    letter-spacing: 4px;
+    color: #6f5d70da;
+    margin-bottom: 1vh;
+  }
+  .mainP {
+    font-size: 2.5em;
+    max-width: 80%;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    text-align: start;
+  }
+  .identifierP {
+    color: rgb(40, 6, 40);
+    font-size: 2em;
+    letter-spacing: 1px;
+  }
+  
+  .btnBox {
+    border-radius: 0 5px 5px 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 100%;
+    background-color: #f7f7f7df;
+  }
+  
+  .padLink {
+    margin-top: 5vh;
+  }
+  
+  @media (max-width: 798px) {
+    .div {
+      flex-direction: column;
+      gap: 0;
+      border-radius: 5px 5px 5px 5px;
+      background-color: transparent;
+    }
+  
+    .txtBox,
+    .btnBox {
+      width: 100%;
+      height: 50%;
+      background-color: transparent;
+    }
+    .txtBox {
+      border-radius: 5px 5px 0 0;
+    }
+    .btnBox {
+      border-radius: 0 0 5px 5px;
+      font-size: 1.3em;
+    }
+    .h2 {
+      color: #7d6b7eda;
+      margin-bottom: 0;
+      font-size: 3em;
+    }
+    .identifierP {
+      color: #7d6b7eda;
+    }
+    .mainP {
+      text-align: center;
+      margin-top: 2vh;
+      max-width: 95%;
+    }
+  }
+  
