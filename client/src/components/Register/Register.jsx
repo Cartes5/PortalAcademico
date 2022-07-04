@@ -144,8 +144,8 @@ const Register = ({ isTeacher }) => {
         )}
 
         <div className={classes.btnBox}>
-          <Button innerTxt={"Register"} clickMe={registerHandler} />
-          <Button innerTxt={"Return"} clickMe={closeModalHandler} />
+          <Button innerTxt={"Registrar"} clickMe={registerHandler} />
+          <Button innerTxt={"Volver"} clickMe={closeModalHandler} />
         </div>
       </form>
     </div>

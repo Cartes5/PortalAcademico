@@ -144,8 +144,8 @@ const Login = () => {
         )}
 
         <div className={classes.btnBox}>
-          <Button innerTxt={"Login"} clickMe={logInHandler} />
-          <Button innerTxt={"Return"} clickMe={closeModalHandler} />
+          <Button innerTxt={"Loguear"} clickMe={logInHandler} />
+          <Button innerTxt={"Volver"} clickMe={closeModalHandler} />
         </div>
       </form>
     </div>
