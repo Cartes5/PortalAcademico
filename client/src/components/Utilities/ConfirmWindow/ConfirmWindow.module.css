@@ -1,0 +1,36 @@
+.popUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    height: 100%;
+    width: 100%;
+  }
+  .btnBox {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+  }
+  .darkP,
+  .lightP,
+  .p {
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .p {
+    color: #6f5d70da;
+    font-size: 2em;
+  }
+  .lightP {
+    color: #473c48;
+  }
+  .darkP {
+    color: #f7f7f7ca;
+  }
+  

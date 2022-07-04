@@ -1,0 +1,58 @@
+.div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* background-color: aqua; */
+  }
+  
+  .lightH2,
+  .darkH2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 400;
+  }
+  .lightH2 {
+    color: #473c48;
+    color: #473c48e7;
+  }
+  .darkH2 {
+    color: #f7f7f7ca;
+    color: #f7f7f7ab;
+  }
+  
+  .pLight,
+  .pDark {
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .pLight {
+    color: #473c48;
+    color: #473c48e7;
+  }
+  .pDark {
+    color: #f7f7f7ca;
+    color: #f7f7f7ab;
+  }
+  
+  .pKey {
+    font-size: 2em;
+    letter-spacing: 1px;
+  }
+  
+  @media (max-width: 798px) {
+    .div {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      height: auto;
+      gap: 1.5em;
+      width: 100%;
+      padding: 2.5vh 0;
+    }
+  }
+  
