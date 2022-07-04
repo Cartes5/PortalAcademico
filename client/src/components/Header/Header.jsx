@@ -18,7 +18,7 @@ const Header = () => {
       </h1>
       <Link
         clickMe={toggleDarkHandler}
-        innerTxt={dark ? "Light" : "Dark"}
+        innerTxt={dark ? "Claro" : "Oscuro"}
         dark={dark}
       />
     </header>

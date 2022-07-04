@@ -13,7 +13,7 @@ const MainUser = ({ socket }) => {
   const user = useSelector((state) => state.CurrentUser.user);
   const isLoading = useSelector((state) => state.IsLoading.loading);
   let url;
-  whatRole === "Mentor"
+  whatRole === "Profesor"
     ? (url = `/api/teacher/${user._id}/classes`)
     : (url = `/api/student/${user._id}/classes`);
 
