@@ -1,0 +1,24 @@
+.article {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+  }
+  
+  .lightH2,
+  .darkH2 {
+    font-size: 2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 40%;
+  }
+  .lightH2 {
+    color: #473c48;
+  }
+  .darkH2 {
+    color: #f7f7f7ca;
+  }
+  
