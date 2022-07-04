@@ -32,7 +32,7 @@ const UserMainAside = ({ socket }) => {
         })
         .catch((err) => {
           dispatch(errorActions.setIsError(true));
-          dispatch(errorActions.setMsg("Server error, please try again"));
+          dispatch(errorActions.setMsg("Error servidor. Intentelo de nuevo."));
         });
     } else {
       setInvalidForm(true);
@@ -45,7 +45,7 @@ const UserMainAside = ({ socket }) => {
 
       await axios
         .put("/api/student/newclass", {
-          secretKey: className, //in this case is secret key
+          secretKey: className, //en este caso es clave secreta
           user,
         })
         .then((serverRes) => {

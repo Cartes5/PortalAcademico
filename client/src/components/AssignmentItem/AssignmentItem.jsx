@@ -31,7 +31,7 @@ const AssignmentItem = ({ item }) => {
   return (
     <li className={dark ? `${classes.darkInput}` : `${classes.lightInput}`}>
       <p className={classes.listItemP}>{item}</p>
-      {role === "Mentor" && (
+      {role === "Profesor" && (
         <span
           name={item}
           onClick={deleteAssignmentHandler}
