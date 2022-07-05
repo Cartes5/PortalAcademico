@@ -12,7 +12,7 @@ El estudiante tiene acceso de lectura a las tareas y también puede participar e
 
 1. Descargue el repositorio y ejecute: `node server/index.js`
    - Alternativamente, si tiene nodemon instalado en su máquina, ejecute: nodemon server/index.js
-2. Ejecute: `cliente de cd`
+2. Ejecute: `cd client`
 3. Ejecutar: `npm start`
 
 
